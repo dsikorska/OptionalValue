@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/examples/">
+    <Project Path="examples/ExampleApi/ExampleApi.csproj" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/System.Text.Json.OptionalValue/">
+    <Project Path="src/System.Text.Json.OptionalValue/System.Text.Json.OptionalValue/System.Text.Json.OptionalValue.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/System.Text.Json.OptionalValue.Tests/">
+    <Project Path="tests/System.Text.Json.OptionalValue.Tests/System.Text.Json.OptionalValue.Tests/System.Text.Json.OptionalValue.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>System.Text.Json.OptionalValue</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Dominika Sikorska</Authors>
+    <Company>Relativity</Company>
+    <Product>System.Text.Json.OptionalValue</Product>
+    <Description>A lightweight library providing OptionalValue&lt;T&gt; wrapper type for distinguishing between "property not provided" and "property explicitly set to null/value" in JSON PATCH operations with System.Text.Json.</Description>
+    <PackageTags>json;patch;optional;system.text.json;http;api;rest;netstandard</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/relativityone/System.Text.Json.OptionalValue</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/relativityone/System.Text.Json.OptionalValue</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Initial release with OptionalValue&lt;T&gt; and OptionalValueJsonConverter&lt;T&gt; for PATCH operation support.</PackageReleaseNotes>
+    <Copyright>Copyright © 2026 Relativity</Copyright>
+
+    <!-- Build Settings -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+</Project>
