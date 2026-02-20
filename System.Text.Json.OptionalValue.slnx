@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/examples/">
-    <Project Path="examples/ExampleApi/ExampleApi.csproj" />
+    <Project Path="examples/GlobalRegistrationApi/GlobalRegistrationApi.csproj" />
+    <Project Path="examples/PerPropertyAttributeApi/PerPropertyAttributeApi.csproj" />
   </Folder>
   <Folder Name="/src/" />
   <Folder Name="/src/System.Text.Json.OptionalValue/">
